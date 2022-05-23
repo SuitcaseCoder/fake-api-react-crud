@@ -6,3 +6,12 @@
     align-items: center;
     border: 2px solid black;
 }
+
+.card {
+    width: 300px; 
+    margin: 25px 0;
+    padding: 15px;
+    box-shadow: 8.0px 10.0px 10.0px hsl(0deg 0% 0% / 0.25);
+    background-color: black;
+    color: white
+}

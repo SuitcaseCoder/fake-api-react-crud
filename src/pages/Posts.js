@@ -5,7 +5,7 @@ import Post from '../components/Post';
 const Posts = ({posts, setPosts}) => {
 
     return(
-        <div className="flex-container">
+        <div className="flex-column">
             <h1>All Posts</h1>
             <div>
                 <AddPost posts={posts} setPosts={setPosts}/>
